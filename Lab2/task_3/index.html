@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        input[type="text"] {
+            margin: 5px 20px 0 0;
+        }
+        input[type="submit"] {
+            width: 95px;
+            height: 50px;
+        }
+
+        form {
+            margin: 0 auto;
+            border: solid black 1px;
+            width: 500px;
+            padding: 10px;
+            background-color: rgb(186, 220, 182);
+        }
+
+        h2 {
+            color: rgb(6, 112, 40);
+            text-align: center;
+        }
+        h3{
+            color: blue;
+            text-align: center;
+        }
+
+        div.form {
+            margin: 0 auto;
+            width: 250px
+        }  
+        div.picture{
+            margin: 0 auto;
+            width: 400px;
+        } 
+        div.cash {
+            margin: 0 auto;
+            width: 300px;
+            text-align: center;
+        }
+        img.pencil {
+            position: absolute;
+            top: 50px;
+            /* float: left; */
+        }
+    </style>
+    <title>Бланк заказа</title>
+</head>
+
+<body>
+    <form>
+        <h2>Бланк заказа</h2>
+        <img class="pencil" src="640px-Apple-logo.png" width="120" height="120">
+        <div class="form">
+            <input type="text" name="firstname" />- Фамилия <br>
+            <input type="text" name="adress"/>- Адрес <br>
+            <input type="text" name="telephone" />- Телефон <br>
+        </div>
+        <h3> Наши товары</h3>
+        <div class="picture"> 
+        <input type="checkbox" name="firstname" /> <img src="67323_r300.jpg" width="100" height="100">
+            <input type="checkbox" name="adress"/> <img src="Лучший-iPad-Pro-11-2021.jpg" width="100" height="100">
+            <input type="checkbox" name="telephone" /><img src="apple-mac-mini-computer-tower-ZR6JPn6-600.jpg" width="100" height="100"><br>
+        </div>
+            <h3> Сумма, котрой Вы располагаете</h3>
+        <div class="cash">
+            <input type="radio" name="f" value="m"/>$100
+            <input type="radio" name="f" value="f"/>$500
+            <input type="radio" name="f" value="f"/>$1000
+        </div>
+            <p align="center">
+            <input type="submit" value="Отправить"  />
+            <input type="submit" value="Сброс">
+        </p>
+</body>
+
+</html>

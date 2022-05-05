@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хищники</title>
+    <style>
+        div {
+            width: 600px;
+            margin: 0 auto;
+            background-color: rgb(250, 219, 179);
+            border: solid black 1px;
+            color: rgb(0, 46, 105)
+        }
+        h1 {
+            font-size: 20px;
+            text-align: center;
+        }
+        li {
+            line-height: 30px;
+        }
+        li.first {
+            color: brown;
+            font-style: italic;
+            font-weight: bold;
+        }
+        li.second {
+            color: green;
+            font-style: normal;
+            font-weight: bold;
+        }
+        li.third {
+            color: black;
+            font-style: normal;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Хищники</h1>
+        <ol>
+            <li class="first">
+                Медвежьи
+                <ul type="disc">
+                    <li class="second">
+                        Медведи
+                        <ul type="circle">
+                            <li class="third">Бурый медведь, Белый медведь</li>
+                        </ul>
+                    </li>
+                    <li class="second">
+                        Панды
+                        <ul type="circle">
+                            <li class="third">
+                                Большая панда, Малая панда
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="first">
+                Собачьи
+                <ul type="disc">
+                    <li class="second">
+                        Волки
+                        <ul type="circle">
+                            <li class="third">Шакал, Красный волк</li>
+                        </ul>
+                    </li>
+                    <li class="second">
+                        Лисы
+                        <ul type="circle">
+                            <li class="third">Лиса рыжая, Фенек</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>

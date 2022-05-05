@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        input[type="text"] {
+            margin: 5px 20px 0 0;
+        }
+
+            form {
+            margin: 0 auto;
+            border: solid black 1px; 
+            width: 300px;
+            padding: 10px;
+            background-color: rgb(241, 158, 216);
+        }
+        h2 {
+            color: red;
+            text-align: center;
+        }
+    </style>
+    <title>Анкета абитуриента</title>
+</head>
+<body>
+    <form>
+    <p> <h2>Анкета абитуриента</h2></p> <br>
+<input type="text" name="lastname"/> - Фамилия <br>
+<input type="text" name="firstname"/> - Имя <br>
+<input type="text" name="lastname"/> - Отчество <br>
+<p> <b>Пол:</b> 
+    <input type="radio" name="s" value="m"/>М
+    <input type="radio" name="s" value="f"/>Ж
+</p>
+<p> <b>Знание иностранного языка</b></p>
+<input type="checkbox" name="english" value="e"/> Английский <br>
+<input type="checkbox" name="gemany" value="g"/> Немецкий <br>
+<input type="checkbox" name="france" value="f"/> Французский <br>
+<p align="right"><input type="submit" value="Отправить"/></p>
+</form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+
+div
+    {
+    font-size: 17px; line-height: 20pt;
+    border: solid black 1px;
+     width: 270px;
+     margin: 0 auto;
+     padding: 10px; 
+     }
+h2.header
+{
+    color: blue;
+}

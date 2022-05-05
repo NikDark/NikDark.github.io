@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        input[type="text"] {
+            margin: 5px 20px 0 0;
+        }
+        form {
+            margin: 0 auto;
+            border: solid black 1px; 
+            width: 500px;
+            padding: 10px;
+            background-color: rgb(164, 208, 216);
+        }
+
+            h2 {
+            color: rgb(29, 9, 119);
+            text-align: center;
+        }
+    </style>
+    <title>Гостевая книга</title>
+</head>
+<body>
+    <form>
+        <p> <h2>Гостевая книга</h2></p> <br>
+<input type="text" name="lastname"/> - Фамилия <br>
+<input type="text" name="firstname"/> - Имя <br>
+<P><b> Ваши пожелания по работе фирмы:</b></P>
+<textarea rows="2" cols="35" name="wish" placeholder="Введите здесь свое сообщение"></textarea><br>
+<!--<select name="massage">
+    <option value="m">Введите здесь свое сообщение</option>
+</select>-->
+<p><b>Укажите товра, наиболее Вам понравившиеся:</b></p>
+<select name="product">
+    <option value="pr">Принтеры</option>
+    <option value="sc">Сканеры</option>
+</select>
+<p align="center">
+    <input type="submit" value="Отправить"/>
+    <input type="submit" value="Сброс">
+</p>
+    </form>
+</body>
+</html>

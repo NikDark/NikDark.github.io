@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лифт</title>
+    <style>
+        div {
+            background-color: rgb(204, 239, 248);
+            padding: 40px;
+        }
+        table.house {
+            width: 500px;
+            margin: 0 auto;
+            background-color: rgb(158, 81, 9);
+        }
+
+        table.house td {
+            text-align: center;
+        }
+
+        td.lift-chimney {
+            background-color: grey;
+        }
+
+        table.windows {
+            width: 50px;
+            height: 50px;
+            margin: 50px auto;
+            background-color: white;
+        }
+
+        table.lift {
+            height: 150px;
+            width: 100px;
+            background-color: white;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 align="center"><font color="blue">Это дом</font></h1>
+        <table class="house" border="1">
+            <tr>
+                <td>
+                    <table class="windows" border="1">
+                        <tr>
+                            <td rowspan="2"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+                <td rowspan="3" class="lift-chimney" width="100px">
+                    <marquee behavior="alternate" direction="up" height="300px">
+                        <table class="lift" border="1">
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"></td>
+                            </tr>
+                        </table>
+                    </marquee>
+                </td>
+                <td><table class="windows" border="1">
+                    <tr>
+                        <td rowspan="2"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </table></td>
+            </tr>
+            <tr>
+                <td><table class="windows" border="1">
+                    <tr>
+                        <td rowspan="2"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </table></td>
+                <td><table class="windows" border="1">
+                    <tr>
+                        <td rowspan="2"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </table></td>
+            </tr>
+            <tr>
+                <td><table class="windows" border="1">
+                    <tr>
+                        <td rowspan="2"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </table></td>
+                <td><table class="windows" border="1">
+                    <tr>
+                        <td rowspan="2"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </table></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

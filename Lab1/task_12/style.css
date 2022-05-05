@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1.class1
+{
+ color: red;
+}
+h1.class2
+{
+ color: blue;
+}
+body
+{
+ background: #859cc9;
+}
+div
+{
+ border: solid black 3px;
+ width: 270px;
+ margin: 0 auto;
+ padding: 10px; 
+ background: yellow;
+}

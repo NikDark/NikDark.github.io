@@ -1,0 +1,26 @@
+div
+    {
+     border: solid black 1px;
+     width: 800px;
+     margin: 0 auto;
+     padding: 10px; 
+     background-color: aquamarine;
+     }
+     h2.header
+{
+    text-align: center;
+    color: brown;
+}
+div.second
+    {
+     border: solid black 1px;
+     width: 800px;
+     margin: 0 auto;
+     padding: 10px; 
+     background-color: rgb(240, 210, 196);
+     }
+     h2.header2
+{
+    text-align: center;
+    color: brown;
+}

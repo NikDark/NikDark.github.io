@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Task 3.14</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text">CSS установить скрытие и открытие блока JS </h1>
+        <div class="text">
+            <b>visibility:hidden</b> Скрытие элемента из документа. Он занимает место в макете.
+        </div>
+        <div class="text">
+            <b>display:none</b> Скрытие элемента из документа. Он не занимает место в макете.
+        </div>
+        <div class="blocks">
+            <div class="block-wrapper" id="block-1">
+                <h3>Бокс 1</h3>
+                <img src="./Pic_1.jpg" alt="Северное сияние" class="block-image">
+                <input type="button" value="Снять" onclick="document.getElementById('block-1').style.display = 'none'" class="block-btn">
+            </div>
+            <div class="block-wrapper" id="block-2">
+                <h3>Бокс 2</h3>
+                <img src="./Pic_2.jpg" alt="Подвесной мост" class="block-image">
+                <input type="button" value="Скрыть" onclick="document.getElementById('block-2').style.visibility = 'hidden'" class="block-btn">
+            </div>
+            <div class="block-wrapper" id="block-3">
+                <h3>Бокс 3</h3>
+                <img src="./Pic_3.jpg" alt="Фареры" class="block-image">
+                <input type="button" value="Открыть" onclick="document.getElementById('block-1').style.display = 'block'; document.getElementById('block-2').style.visibility = 'visible';" class="block-btn">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

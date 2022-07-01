@@ -1,0 +1,19 @@
+h3.class1
+{
+ color: blue;
+}
+h3.class2
+{
+ color: red;
+}
+
+div
+{
+ border: solid black 1px;
+ width: 370px;
+ margin: 10px auto; 
+ padding: 10px 20px;
+background-color: rgb(184, 208, 245);
+ }
+
+ 

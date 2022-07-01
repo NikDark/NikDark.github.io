@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 1px;
+        }
+        .flip,#panel {
+            background-color: green;
+            color: aliceblue;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 3px;
+        }
+        #panel {
+            display: none;
+             }
+    </style>
+
+</head>
+<body>
+    <p class="flip" onclick="myFunction()">Нажмите, чтобы показать панель</p>
+    <div id="panel">
+        <p>Эта панель содержит элемент div, который скрыт по умолчанию (display: none). </p>
+        <p>Используем стиль CSS с JavaScript, чтобы показать div (display: block).</p>
+        <p>Как это работает: обратите внимание, что элемент p с class="flip" имеет атрибут onclick, прикрепленный к нему. <br>
+            Когда пользователь нажимает на элемент p, выполняется функция myFunction(), которая изменяет 
+            стиль div с id="panel" с display:none (hidden) на display:block (visible).</p>
+        <p>Вы узнаете больше о JavaScript в нашем учебнике JavaScript</p>
+            </div>
+            
+</body>
+<script>
+    function myFunction() {
+        document.getElementById('panel').style.display = "block";
+    } 
+</script>
+</html>
+

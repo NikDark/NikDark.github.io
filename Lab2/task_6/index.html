@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        form {
+            width: 350px;
+            margin: 0 auto;
+            background-color: rgb(216, 174, 60);
+            padding: 0 15px 15px;
+            border: solid black 1px;
+        }
+
+        input[type="text"] {
+            margin: 5px 20px 0 0;
+            height: 20px;
+            border: solid black 1px;
+            width: 150px;
+        }
+
+        input[type="button"] {
+            border-radius: 4px;
+            width: 40px;
+            height: 40px;
+            border: solid black 1px;
+            font-size: 20px;
+        }
+
+        div.operands {
+            margin-top: 10px;
+        }
+        input[type="button"].reset {
+            width: 130px;
+            margin: 10px 0 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1 align="center"><font color="brown" size="5">Калькулятор</font></h1>
+        <div class="numbers">
+            <input type="text" name="" id=""> - Первое число
+            <input type="text" name="" id=""> - Второй число
+            <input type="text" name="" id=""> - Результат
+        </div>
+        <div class="operands">
+            <input type="button" value="+">
+            <input type="button" value="-">
+            <input type="button" value="*">
+            <input type="button" value="/">
+        </div>
+        <input type="button" value="Очистить" class="reset">
+    </form>
+</body>
+</html>

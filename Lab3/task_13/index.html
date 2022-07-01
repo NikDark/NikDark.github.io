@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+
+        }
+
+        .header {
+            text-align: left;
+            background-color: white;
+        }
+
+        .title {
+            text-align: left;
+            color: white;
+            background-color: rgb(133, 134, 134);
+            padding: 1px 10px;
+        }
+
+        .row {
+            overflow: auto;
+            border-right: solid 3px #858686;
+            border-left: solid 3px #858686;
+        }
+
+        .leftside {
+            float: left;
+            width: 15%;
+            padding: 5px 15px;
+        }
+
+        .rightside {
+            float: left;
+            padding: 0px 30px;
+            width: 85%;
+            border-left: 2px solid #858686;
+            height: auto;
+        }
+
+        .footer {
+            text-align: left;
+            color: white;
+            background-color: #858686;
+            padding: 1px 10px;
+        }
+
+        .row:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        @media screen and (max-width: 600px) {
+            .row, .leftside, .rightside {
+                width: 100%;
+                border-left: none;
+            }
+           
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>CSS установить бесплатный макет</h1>
+    </div>
+    <div class="title">
+        <h1>instituteiba.by</h1>
+    </div>
+    <div class="row">
+        <div class="leftside">
+            <p>"Никогда не увеличивайте, сверх того, что необходимо, количество сущностей,
+                необходимых для объяснения чего-либо." Уильям Оккам (1285-1349)</p>
+        </div>
+        <div class="rightside">
+            <h2>Я только учусь веб-программированию</h2>
+            <p>В instituteiba.by вы научитесь всему необходимому.</p>
+            <p>instituteiba.by - Крупнейший негосударственный портал по подготовке программистов!</p>
+
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; Авторское право по данным Refsnes.</p>
+    </div>
+</body>
+
+</html>

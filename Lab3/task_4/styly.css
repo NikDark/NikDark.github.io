@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(235, 30, 228);
+    text-align: center;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: rgb(34, 35, 114);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-left: dotted black 10px;
+    border-right: dotted green 10px;
+    border-top: dotted yellow 10px;
+    border-bottom: dotted red 10px;
+}
+
+table {
+    margin: auto;
+    border: solid rgb(138, 25, 55) 4px;
+    background-color: rgb(229, 229, 68) ;   }
+div {
+    padding: 2px;
+    width: 245px;
+    margin: auto;
+    border: solid rgb(138, 25, 55) 4px;
+}
+
+th {
+    border:dashed rgb(182, 11, 39) ;
+       }
+td{
+    border: solid rgb(218, 117, 134);
+    }

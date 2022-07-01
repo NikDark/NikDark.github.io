@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 8.4</title>
+</head>
+<body>
+    <input type="button" value="вывести числа от 1 до 10" onclick="firstTask()">
+    <input type="button" value="вывести числа от 100 до 0 с шагом 10" onclick="secondTask()">
+    <input type="button" value="вывести числа от 40 до 0 с шагом 5 пропустив 25" onclick="thirdTask()">
+    <div id="block-message" style="margin: 20px">
+
+    </div>
+</body>
+<script>
+    var block_message = document.getElementById("block-message");
+    function firstTask() {
+        var message = '';
+        for (let value = 1; value <= 10; value++) {
+            message += value + '</br>'
+        }
+        block_message.innerHTML = message;
+    }
+
+    function secondTask() {
+        var message = '';
+        for (let value = 100; value >= 0; value -= 10) {
+            message += value + '</br>'
+        }
+        block_message.innerHTML = message;
+    }
+
+    function thirdTask() {
+        var message = '';
+        for (let value = 40; value >= 0; value -= 5) {
+            if (value != 25){
+                message += value + '</br>'
+            }
+        }
+        block_message.innerHTML = message;
+    }
+</script>
+</html>

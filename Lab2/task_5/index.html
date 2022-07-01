@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            color: blueviolet;
+
+        }
+
+        img {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            width: 150px;
+            height: 100px;
+        }
+
+        div.form {
+            margin: 0 auto;
+            width: 300px;
+
+        }
+        div.foto {
+            margin: 0 auto;
+            width: 320px;
+        }
+        div.days {
+            margin: 0 auto;
+            width: 220px;
+        }
+        div.fotomaster {
+            margin: 0 auto;
+            width: 150px;
+        }
+
+        form{
+            border: solid black;
+            background-color: khaki;
+        }
+
+        input[ type="text"] {
+            margin: 10px 0;
+        }
+        input[type="submit"]{
+            width: 150px;
+            height: 30px;
+            background-color: rgb(193, 169, 132);
+                }
+        select{
+            width: 150px;
+            height: 50px;
+            background-color: bisque;
+            font-size: medium;
+            text-align: center;
+            border-radius: 10px;
+            border: solid black 1px
+        }
+    </style>
+    <title>Фотостудия "Шарм"</title>
+</head>
+
+<body>
+    <form>
+        <h1><b>
+                <font size="6" color="red">Фотостудия "ШАРМ"</font>
+            </b> </h1>
+        <img src="index.jpg">
+        <div class="form">
+            <input type="text" name="lastname" style="height: 100px" /> <b> Имя заказчика </b><br>
+            <input type="text" name="adress" style="height: 150px;" /> <b>Адрес</b> <br>
+            <input type="text" name="telephone" style="height: 50px;" /> <b>Телефон</b>
+        </div>
+        <h2> Фото</h2>
+        <div class="foto">
+            <input type="checkbox" name="color" /> цветное
+            <input type="checkbox" name="black" /> черно-белое
+            <input type="checkbox" name="slidecolor" /> цветной слайд
+        </div>
+        <h2> Срок исполнения заказа</h2>
+        <div class="days">
+            <input type="radio" name="f" value="m" />3 дня
+            <input type="radio" name="f" value="f" />10 дней
+            <input type="radio" name="f" value="f" />30 дней
+
+        </div>
+        <h2>Заказ принял</h2>
+        <div class="fotomaster">
+            <select name="work" onchange="location.href=this.value">
+                <option value="index2.html">ИВАНОВ</option>
+                <option value="index3.html">ПЕТРОВ</option>
+                <option value="index4.html">СИДОРОВ</option>
+            </select>
+        </div>
+        <p align="center">
+            <input type="submit" value="Отправить"/>
+            <input type="submit" value="Очистить">
+        </p>
+    </form>
+</body>
+
+</html>

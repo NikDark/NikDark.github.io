@@ -1,0 +1,12 @@
+table{
+    border: solid blue 10px; /*Цвет рамки таблицы*/
+}
+th{
+    background-color: yellow;
+    color: red;
+    border: dashed red 3px;
+}
+td{
+    background-color: green;
+    border: solid yellow 2px;
+    }

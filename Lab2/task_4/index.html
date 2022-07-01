@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        form{
+            border: solid black;
+            background-color: aliceblue;
+        }
+        div.element {
+            border: solid black 1px;
+        }
+
+        div.adress {
+            margin: 0 auto;
+            width: 250px;
+            text-align: right;
+        }
+
+        div.cash {
+            margin: 0 auto;
+            width: 180px;
+        }
+
+        div.opinions {
+            margin: 0 auto;
+            width: 160px;
+        }
+
+        div.comment {
+            margin: 0 auto;
+            width: 550px;
+
+        }
+
+        textarea {
+            width: 550px;
+            height: 150px;
+        }
+
+        select {
+            margin: 5px 20px 0 0;
+            width: 150px;
+            height: 40px;
+            font-size: 20px;
+        }
+
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+
+        h2 {
+            color: brown;
+            text-align: center;
+        }
+
+        table {
+            margin: 0 auto;
+        }
+    </style>
+    <title>Магазин</title>
+</head>
+
+<body>
+    <form>
+        <h1>Бланк заказа</h1>
+        <h2></h2>
+        <table cellpadding>
+            <tr height="100px">
+                <td width="150" align="center">
+                    <div class="element">
+                        <p>PC <br>
+                            2000$
+                        </p>
+                        <input type="checkbox">
+                    </div>
+                </td>
+                <td width="150" align="center">
+                    <div class="element">
+                        <p>OC Windows <br>
+                            100$
+                        </p>
+                        <input type="checkbox">
+                    </div>
+                </td>
+                <td width="150" align="center">
+                    <div class="element">
+                        <p>Mouse <br>
+                            150$
+                        </p>
+                        <input type="checkbox">
+                    </div>
+                </td>
+                <td width="150" align="center">
+                    <div class="element">
+                        <p>iPad <br>
+                            1200$
+                        </p>
+                        <input type="checkbox">
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="adress">
+            <h2> Адрес доставки</h2>
+            город <input type="text" name="town" /> <br>
+            улица <input type="text" name="street" /> <br>
+            дом <input type="text" name="house" /> <br>
+            квартира <input type="text" name="flat" />
+        </div>
+        <div class="cash">
+            <h2> Оплата</h2>
+            <input type="radio" name="c" /> банковский перевод <br>
+            <input type="radio" name="c" /> наличными курьеру
+        </div>
+        <div>
+            <h2>Нам важно Ваше мнение о работе магазина</h2>
+            <div class="opinions">
+                <select name="opinion">
+                    <option value="cool">отлично</option>
+                    <option value="good">хорошо</option>
+                    <option value="so">посредственно</option>
+                    <option value="bad">плохо</option>
+                    <option value="verybad">очень плохо</option>
+                </select>
+            </div>
+            <div class="comment">
+            <h2>Место для Ваших пожеланий</h2>
+            <p><textarea name="comment" placeholder="Введите своё сообщение"></textarea></p>
+        </div>
+        <p align="center">
+            <input type="submit" value="Заказать"/>
+            <input type="submit" value="Очистить">
+        </p>
+
+    </form>
+
+
+</body>
+
+</html>

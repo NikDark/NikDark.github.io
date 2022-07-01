@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+}
+
+.left-container {
+    width: 15%;
+}
+
+
+.left-container .menu-elem {
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 5px;
+    transition: background-color .5s;
+}
+
+.left-container .menu-elem:hover {
+    background-color: rgb(119, 188, 231);
+}
+
+
+.right-container {
+    width: 85%;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.images {
+    height: 450px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.images img {
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+
+.back {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.main-image {
+    position: absolute;
+    border: 10px solid grey;
+    width: 750px;
+}
+
+
+p, h3 {
+    margin: 20px 0;
+}
+
+.gallery {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery hr {
+    margin: 10px 0;
+}
+
+.gallery h4 {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,34 @@
+h2.header 
+{
+    color:rgb(161, 103, 103)
+}
+
+
+span.red
+{
+    color: red;
+}
+span.green
+{
+    color: green;
+}
+span
+{
+    font-weight: bold;
+}
+body
+{
+    font-size: 15px;
+}
+ol
+{
+    line-height: 25px;
+}
+div
+{
+    border: solid black 1px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(183, 163, 199);
+}

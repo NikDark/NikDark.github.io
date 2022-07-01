@@ -1,0 +1,32 @@
+
+hr{
+    color: #afafaf;
+    border: none;
+    background-color:#afafaf;
+    width: 700px;
+    margin: auto;
+    height:  2px;
+
+}
+h3{
+    text-align: center;
+    color: #e43793;
+    }
+    a{
+        color: rgb(180, 22, 198);
+        font-weight: bold;
+    }
+    h1
+    {
+        text-align: center;
+    }
+    div{
+        font-style: italic;
+    }
+    .year{
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    .gold{
+        font-weight: bold;
+    }
